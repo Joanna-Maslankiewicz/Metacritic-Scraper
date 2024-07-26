@@ -17,10 +17,10 @@ Jest to katalog zawierający skrypty Pythona oraz wygenerowane wykresy z analiz.
 
 W głównym katalogu projektu znajdują się pliki CSV z danymi, które zostały wykorzystane do analizy. Każdy plik odpowiada innemu zbiorowi danych, np.:
 - *game_release.csv*: zawiera informacje o datach wydania gier.
-- *metacritic_reviews_selenium.csv*: dane z recenzji zebrane przy pomocy Selenium.
+- *metacritic_reviews_selenium.csv*: dane z recenzji zebrane przy pomocy scrapera.
 - *players-[nazwa gry].csv*: dane dotyczące liczby graczy dla poszczególnych gier.
 
-### Skrypty do scrapowania:
+### Skrypt do scrapowania:
 
 - *scraper_selenium.py*: główny skrypt odpowiedzialny za scrapowanie danych z Metacritic przy użyciu Selenium.
 
